@@ -9,6 +9,8 @@ The original basic net architecture was refined, using convolutions, max-pooling
 Network architecture of refined network
 is as follows.
 
+![architecture](architecture.png)
+
 # Loss function
 
 The nn.CrossEntropyLoss combines nn.LogSoftmax and nn.NLLLoss in one single class, therefore softmax is already included.
@@ -19,4 +21,6 @@ Training loss per batch, EWA loss per batch and Validation loss per epoch.
 
 # Additional Analysis
 
-Class Confusion matrix in this case looks as follows. Most confusing to classify seems to be 7. In both cases predicted values were 2, 3 while 7
+Class Confusion matrix in this case looks as follows. Most confusing to classify seems to be 7. In both cases predicted values were 2, 3 while 7 was classified.
+
+![matrix](matrix.png)
