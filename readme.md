@@ -18,6 +18,7 @@ The nn.CrossEntropyLoss combines nn.LogSoftmax and nn.NLLLoss in one single clas
 # Training loss per batch
 
 Training loss per batch, EWA loss per batch and Validation loss per epoch.
+![loss](loss.png)
 
 # Additional Analysis
 
